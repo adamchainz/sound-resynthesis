@@ -1,5 +1,4 @@
-Sound Resynthesis with a Genetic Algorithm
-==========================================
+# Sound Resynthesis with a Genetic Algorithm
 
 This is my final year project from university, finished in June 2011. It
 implements a basic synthesizer that is tuned by a genetic algorithm to
@@ -17,3 +16,8 @@ with these versions of its dependencies:
 The main entry point is `adj08/MainMatch.java` but there are also some other
 utilities, e.g. to play back dumped `javaobj` files containing generated
 synthesizers, in `adj08/tests/` and `adj08/utilities`.
+
+There are some example resyntheses in `demos` - for example,
+`oboe-original.wav` is the wav file as given to the system, and
+`oboe-resynthesis.wav` is the same note played by the best matched synthesizer
+from the genetic algorithm.
